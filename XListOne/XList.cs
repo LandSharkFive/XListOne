@@ -109,12 +109,12 @@
             List<int> temp = new List<int>(a.List);
             a.List.Clear();
             int mid = temp.Count / 2;
-            for (int i = 0; i < mid; i++)
+            for (int i = 0; i <= mid; i++)
             {
                 a.Add(temp[i]);
             }
             XNode b = new XNode();
-            for (int i = mid; i < temp.Count; i++)
+            for (int i = mid + 1; i < temp.Count; i++)
             {
                 b.Add(temp[i]);
             }
