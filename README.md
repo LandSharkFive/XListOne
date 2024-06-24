@@ -9,7 +9,7 @@ The is a C# Console-Mode Project.  Open with  Visual Studio 2022 and above to co
 
 ## Description:
 
-A segmented list is a linked list that contains a list of values.  Each node in the linked list has a maximum size.
+A segmented list is a linked list that contains a list of values.  Each node has a maximum size.
 
 ## Unit Tests
 
